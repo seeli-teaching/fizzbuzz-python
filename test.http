@@ -1,0 +1,26 @@
+###
+# Passing the number 50 as a route parameter
+# Should return Buzz
+GET http://localhost:7071/api/FizzBuzz/50
+
+###
+# Passing the number 39 as a route parameter
+# Should return Fizz
+GET http://localhost:7071/api/FizzBuzz/39
+
+###
+# Passing the number 23 as a route parameter
+# Should return 23
+GET http://localhost:7071/api/FizzBuzz/23
+
+###
+# Passing the number 60 as a route parameter
+# Should return FizzBuzz
+GET http://localhost:7071/api/FizzBuzz/60
+
+###
+# Passing the string 'Miau' as route parameter
+# Should return the message: 'The parameter is not a number'
+GET http://localhost:7071/api/FizzBuzz/Miau
+
+
